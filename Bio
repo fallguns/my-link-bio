@@ -1,0 +1,133 @@
+<!<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Link Bio</title>
+
+<!-- ICON -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: radial-gradient(circle at top, #0f172a, #020617);
+    color: white;
+    text-align: center;
+}
+
+/* animasi masuk */
+.container {
+    padding: 40px 20px;
+    animation: fade 1s ease-in;
+}
+
+@keyframes fade {
+    from {opacity: 0; transform: translateY(30px);}
+    to {opacity: 1;}
+}
+
+/* foto */
+img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 50%;
+    border: 3px solid #00ffcc;
+    box-shadow: 0 0 25px #00ffcc;
+}
+
+/* teks */
+h1 {
+    margin: 10px 0;
+}
+
+p {
+    color: #94a3b8;
+}
+
+/* tombol */
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px auto;
+    padding: 14px;
+    width: 85%;
+    max-width: 320px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* hover */
+.link:hover {
+    transform: scale(1.07);
+    background: #00ffcc;
+    color: black;
+    box-shadow: 0 0 20px #00ffcc;
+}
+
+/* badge */
+.badge {
+    font-size: 11px;
+    background: #00ffcc;
+    color: black;
+    padding: 3px 7px;
+    border-radius: 6px;
+}
+
+/* footer */
+.footer {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #64748b;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- FOTO (SUDAH GUE PASANGIN) -->
+<img src="https://i.imgur.com/lVx1Q4e.jpeg">
+
+<h1>AKHSIN FALAKHI🚀</h1>
+<p>💰 Gue share cara dapet duit dari HP tiap hari</p>
+
+<!-- LINK -->
+<a class="link" href="https://www.tiktok.com/@fallguns__?_r=1&_t=ZS-95kqVUzJhoH" target="_blank">
+    <i class="fa-brands fa-tiktok"></i>
+    TikTok Gue <span class="badge">HOT</span>
+</a>
+
+<a class="link" href="https://www.instagram.com/fallguns_?igsh=MXhvZTZscGg0bHZheA==" target="_blank">
+    <i class="fa-brands fa-instagram"></i>
+    Instagram
+</a>
+
+<a class="link" href="#" target="_blank">
+    <i class="fa-solid fa-cart-shopping"></i>
+    Produk Viral <span class="badge">BEST</span>
+</a>
+
+<a class="link" href="#" target="_blank">
+    <i class="fa-solid fa-money-bill"></i>
+    Cara Gue Dapet Duit
+</a>
+
+<div class="footer">© 2026 - Powered by You 🔥</div>
+
+</div>
+
+</body>
+</html>
